@@ -1,0 +1,57 @@
+body{
+    font-family: 'Merriweather', serif;
+    margin: 0px;
+    background-color: white;
+}
+.header-section{
+    height: 675px;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+        url('images/donation14.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#cover-div{
+    color: white;
+    text-align: center;
+    padding-top: 170px;
+    
+    
+}
+#cover-div h1{
+    font-size: 60px;
+}
+#cover-div p{
+    margin-bottom: 50px;
+}
+.link-btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    align-content: center;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.donation-amount-parent{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.donation-amount-parent div{
+    background-size: 50px;
+    margin: 10px 10px;
+    padding: 2%;
+    background-color: #FAFAFA;
+    border-radius: 10px;
+    font-size: 30px;
+    
+    
+}
+.donation-amount-parent div h4{
+    color:black;
+    text-align: center;
+}
