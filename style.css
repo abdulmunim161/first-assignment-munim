@@ -34,24 +34,36 @@ body{
     font-weight: 700;
     border-radius: 5px;
 }
+.donate-today{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.all-h1-except-top{
+    font-size: 40px;
+}
 .donation-amount-parent{
     display: flex;
     justify-content: center;
-    
-    
-    
+  
 }
 .donation-amount-parent div{
-    background-size: 50px;
-    margin: 10px 10px;
-    padding: 2%;
+    width: 130px;
+    margin: 20px 20px;
+    /*padding: 10px 20px;*/
     background-color: #FAFAFA;
     border-radius: 10px;
-    font-size: 30px;
-    
+    font-size: 30px; 
     
 }
 .donation-amount-parent div h4{
     color:black;
     text-align: center;
+}
+#div-200tk{
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+#div-200tk h4{
+    color: #FF5959;
 }
