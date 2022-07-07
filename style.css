@@ -35,6 +35,9 @@ body{
     font-weight: 700;
     border-radius: 5px;
 }
+.link-btn:hover{
+    background-color: #f59797;
+}
 .donate-today{
     margin-top: 120px;
     margin-bottom: 40px;
@@ -49,7 +52,7 @@ body{
   
 }
 .tk-amount{
-    width: 130px;
+    width: 120px;
     margin: 20px 20px;
     background-color: #FAFAFA;
     border-radius: 5px;
@@ -73,7 +76,7 @@ body{
     justify-content: center;
 }
 input[type="text"]{
-    width: 810px;
+    width: 765px;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing:border-box;
@@ -124,7 +127,9 @@ input[type="text"]{
 #education{
     background-color: #FFF4D6;
 }
-
+.news-h1-container{
+    margin-top: 20px;
+}
 .news-container{
     display: flex;
     justify-content: center;
@@ -151,6 +156,11 @@ input[type="text"]{
     text-decoration: none;
     
 }
+.news a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(89, 89, 216);
+}
 #more-news-container{
     margin-top: 40px;
     display: flex;
@@ -158,6 +168,11 @@ input[type="text"]{
 }
 .news-btn{
     background-color: rgb(94, 94, 231);
+    
+}
+.news-btn:hover{
+    background-color: rgb(157, 157, 235);
+    
 }
 
 #email-parent{
@@ -192,6 +207,10 @@ input[type="text"]{
     background-color: #FF5959;
     color: white;
     
+}
+#submit-btn:hover{
+    background-color: #f59797;
+    cursor: pointer;
 }
 footer{
     background-color: black;
